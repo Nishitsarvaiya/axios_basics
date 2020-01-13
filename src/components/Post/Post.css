@@ -1,0 +1,28 @@
+.Post {
+	width: 250px;
+	padding: 16px;
+	text-align: center;
+	border: 1px solid #eee;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16);
+	margin: 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-family: 'Open Sans';
+	-webkit-font-smoothing: 'anti-aliased';
+	color: #484848;
+	transition: 150ms ease-out;
+}
+
+.Post:hover {
+	box-shadow: 0 12px 24px -4px rgba(0, 0, 0, 0.16);
+}
+
+.Post:active {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Author {
+	font-family: 'Oswald';
+	margin: 16px 0;
+	color: #ccc;
+}
